@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: white;
+  margin: 0;
+}
+
+/* free positioning */
+.item {
+  position: absolute;
+}
+</style>
+</head>
+
+<body>
+
+<img src="https://picsum.photos/300" class="item" style="top:100px; left:100px;">
+<img src="https://picsum.photos/200" class="item" style="top:300px; left:400px;">
+
+<div class="item" style="top:50px; left:300px;">
+  <iframe width="300" height="170"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+  </iframe>
+</div>
+
+</body>
+</html>
